@@ -2,44 +2,50 @@ baseURL: "https://example.com"
 languageCode: "en-us"
 title: "Hugo-profile"
 
-googleanalytics: UA-xxxxxxxx-x
-disqusShortname: yourdiscussshortname
+googleanalytics: UA-xxxxxx-x
+disqusShortname:
 Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 taxonomies:
   tag: "tags"
   category: "categories"
 
+enableEmoji: true
 params:
-  version: 1
+  version: 2
 
   favicon: "/images/fav.png"
-  description: "A hugh performance hugo theme for personal website. It is single page portfolio. It has blog, contact sections also. Contact is powered by formspree."
-  disqus: ""
-
-  # Background
-  custombackground: false
-  background: ""
-  backimg: ""
-
-  # Contact
-  contact: true
-  action: ""
-  emailname: ""
-  messagename: ""
+  description: "A high performance hugo theme for personal portfolio and blog."
+  copyright: "2021"
 
   # Navbar Menus
   customMenus:
+    - name: "About"
+      Url: "/#"
     - name: "Blog"
       Url: "/blog"
 
-  # Home
-  name: "Example name"
-  profile: "/images/v1/avatar.webp"
-  github: "https://github.com/"
-  linkedin: "https://linkedin.com/"
+  # social
+  socialicontop: false
+  name: "Examble name"
+  github: "https://github.com"
+  linkedin: "https://linkedin.com"
   twitter: "https://twitter.com/"
   instagram: "https://instagram.com/"
+  facebook: "https://facebook.com"
+
+  # About
+  profile_image: "/images/profile.webp"
+  descripe_l1_person: "Hi, I'm Profile, a passionate web developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly. This is a example template for about section."
+  descripe_l2_person: ""
+
+  useresume: true
+  customname: ""
+  resumelink: "/resume.pdf"
 
   # Things I do
   usedothings: true
@@ -59,63 +65,10 @@ params:
       description: I love to build things for web
       #url: https://guru.com
 
-  # About
-  profile_image: "/images/profile.webp"
-  descripe_l1_person: "Hi, I'm Profile, a passionate web developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-  descripe_l2_person: "This is just a example for about section. You can easily change with the help of cofig file."
-  job: "your role"
-  resume: "/resume.pdf"
+  # Footer
+  socialiconfooter: true
+  recentposts: true
 
-  #projects
-  projects:
-    - title: "Project name"
-      image: "/images/project.jpg"
-      description: "This is your description"
-      secoundarylink: true
-      secoundaryurlname: "Featured link"
-      secoundaryurl: "/"
-      sourceurl: "https://github.com/gurusabarish/hugo-profile"
-
-    - title: "Project name"
-      image: "/images/project.jpg"
-      description: "This is your description"
-      secoundarylink: true
-      secoundaryurlname: "Featured link"
-      secoundaryurl: "/"
-      sourceurl: "https://github.com/gurusabarish/hugo-profile"
-
-    - title: "Project name"
-      image: "/images/project.jpg"
-      description: "This is your description"
-      secoundarylink: true
-      secoundaryurlname: "Featured link"
-      secoundaryurl: "/"
-      sourceurl: "https://github.com/gurusabarish/hugo-profile"
-
-    - title: "Project name"
-      image: "/images/project.jpg"
-      description: "This is your description"
-      secoundarylink: true
-      secoundaryurlname: "Featured link"
-      secoundaryurl: "/"
-      sourceurl: "https://github.com/gurusabarish/hugo-profile"
-
-    - title: "Project name"
-      image: "/images/project.jpg"
-      description: "This is your description"
-      secoundarylink: true
-      secoundaryurlname: "Featured link"
-      secoundaryurl: "/"
-      sourceurl: "https://github.com/gurusabarish/hugo-profile"
-
-    - title: "Project name"
-      image: "/images/project.jpg"
-      description: "This is your description"
-      secoundarylink: true
-      secoundaryurlname: "Featured link"
-      secoundaryurl: "/"
-      sourceurl: "https://github.com/gurusabarish/hugo-profile"
-
-  #Blog
+  # Blog
   showdescription: false
   tweet: true
