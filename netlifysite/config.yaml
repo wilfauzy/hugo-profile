@@ -1,6 +1,6 @@
 baseURL: "https://profile.gurusabarish.tech"
 languageCode: "en-us"
-title: "Hugo-profile"
+title: "Wildan Fauzy"
 
 googleanalytics: UA-xxxxxx-x
 disqusShortname:
@@ -11,8 +11,8 @@ markup:
       unsafe: true
 
 taxonomies:
-  tag: "tags"
-  category: "categories"
+  tag: "tag"
+  category: "kategori"
 
 enableEmoji: true
 params:
@@ -33,13 +33,13 @@ params:
   # home
   disable_home: false
   profile_image: "/images/profile.png"
-  name: "Example name"
-  profession: "Profession"
-  github: "https://github.com"
-  linkedin: "https://linkedin.com"
-  twitter: "https://twitter.com/"
-  instagram: "https://instagram.com/"
-  facebook: "https://facebook.com"
+  name: "Wildan Fauzy"
+  profession: "Penulis Amatir"
+  github: "https://github.com/wilfauzy"
+  #linkedin: "https://linkedin.com"
+  twitter: "https://twitter.com/wilfauzy"
+  instagram: "https://instagram.com/wilfauzy"
+  facebook: "https://facebook.com/wilfauzy"
 
   # About
   disable_about: false
